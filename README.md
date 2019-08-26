@@ -13,7 +13,7 @@ Personnellement, j'ai utilisé WAMP (comme le bot etait herbérgé localement) p
 
 **Comment l'installer?** :
 - Rassembler les 3 fichiers ``tweet_julerie.php``, ``dbini.php``,``TwitterAPIExchange.php`` dans le même dossier (si vous n'y connaissez rien dans les chemin d'accès, sinon libre à vous de bidouiller)
-- Creer un compte developpeur et etre approuvé ici https://developer.twitter.com/
+- Créer un compte developpeur et etre approuvé ici https://developer.twitter.com/
 - Créer une base de donnée ``lexique``avec les tables ``last_one`` et ``liste_mots`` et importer le fichier ``lexique.sql``
 - Modifier le contenu du fichier ``dbini.php``avec les identifiants de votre BDD (déja rempli dans le fichier pour les configs par défaut)
 ainsi que vos crédentials Twitter pour utiliser l'api dans les bon champs
